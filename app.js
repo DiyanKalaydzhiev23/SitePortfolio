@@ -48,7 +48,7 @@ function redirect() {
 
     formBtn.addEventListener('click', () => {
         if (emailField.checkValidity()){
-            window.location.href = "mailto:mail@example.org";
+            window.open('mailto:v.logodazhki@abv.bg', '_system');
         }
     });
 }
