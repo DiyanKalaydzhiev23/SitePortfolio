@@ -67,6 +67,22 @@ section {
   padding: 3rem 18rem;
 }
 
+button {
+  border-radius: 30px;
+  width: 234.6px;
+  height: 51.6px;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin: 30px;
+  background-color: transparent;
+}
+
+form div .btn-icon {
+  position: relative;
+  top: 41px;
+  left: -70px;
+}
+
 .section {
   -webkit-transform: translateY(-100%) scale(0);
           transform: translateY(-100%) scale(0);
