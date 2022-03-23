@@ -42,4 +42,15 @@ function PageTransitions(){
     })
 }
 
+function redirect() {
+    const formBtn =  document.querySelector('form div button');
+    const emailField = document.getElementById('email');
+
+    formBtn.addEventListener('click', () => {
+        if (emailField.checkValidity()){
+            window.location.href = "mailto:mail@example.org";
+        }
+    });
+}
+
 PageTransitions();

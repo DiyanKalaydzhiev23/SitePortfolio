@@ -12,7 +12,7 @@
     <link rel="icon" type="image/svg" href="img/iconmonstr-coffee-7.svg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 </head>
-<body class="main-content">
+<body class="main-content" onload="javascript: redirect();">
     <header class="section sec1 header active" id="home">
         <div class="header-content">
             <div class="left-header">
@@ -300,7 +300,7 @@
                         <form action="mailto:v.logodazhki@abv.bg" method="post" enctype="multipart/form-data" name="EmailForm" class="contact-form">
                             <div class="input-control i-c-2">
                                 <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input type="email" id="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
                                 <input type="text" required placeholder="ENTER SUBJECT">
